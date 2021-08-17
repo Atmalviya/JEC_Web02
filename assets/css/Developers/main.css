@@ -1,0 +1,91 @@
+body{
+    background-color:rgb(80, 79, 88);
+    background-image: url('./background_img.jpg');
+}
+
+.container02{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 100px;
+}
+
+
+
+.card{
+    background-color:black ;
+    color: white;
+    width: 240px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.card-image{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.car-1{
+    background-image: url('./all.jpg');
+}
+
+.car-2{
+    background-image: url('./all.jpg');
+}
+
+.car-3{
+    background-image: url('./all.jpg');
+}
+
+.car-4{
+    background-image:url('./all.jpg') ;
+}
+
+.car-5{
+    background-image:url('./all.jpg') ;
+}
+
+.car-6{
+    background-image: url('./all.jpg');
+    background-size: cover;
+}
+
+.car-7{
+    background-image: url('./all.jpg');
+    background-size: cover;
+}
+
+.card h2{
+    padding: 10px;
+
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-image: url(./linkdin-1.jpg);
+    background-color: black;
+    background-size: cover;
+    color: white;
+    padding: 15px 15px;
+    display: block;
+    text-align: center;
+    margin: 20px 110px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.card:hover{
+    background-color: rgb(37, 35, 37);
+    /* change color of back end to white */
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all is ease;
+}
